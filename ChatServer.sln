@@ -5,6 +5,19 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatServer", "ChatServer\ChatServer.csproj", "{E1DA3C3D-E50E-40A4-ACFC-5BB835EDA704}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{8806269E-6FC6-42A2-AE9C-DD4A25B721FD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{A55413BA-2211-4944-BC39-43200D5763DB}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Scripts\Deploy-AzureResourceGroup.ps1 = PublishScripts\Scripts\Deploy-AzureResourceGroup.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Templates", "Templates", "{C5CA5BA4-D742-4FD4-A3FE-733C9C6E45B2}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Templates\ChatServer.json = PublishScripts\Templates\ChatServer.json
+		PublishScripts\Templates\ChatServer.param.dev.json = PublishScripts\Templates\ChatServer.param.dev.json
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +31,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A55413BA-2211-4944-BC39-43200D5763DB} = {8806269E-6FC6-42A2-AE9C-DD4A25B721FD}
+		{C5CA5BA4-D742-4FD4-A3FE-733C9C6E45B2} = {8806269E-6FC6-42A2-AE9C-DD4A25B721FD}
 	EndGlobalSection
 EndGlobal
