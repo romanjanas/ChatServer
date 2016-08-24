@@ -1,8 +1,7 @@
 var chatServer = new function () {
     
     // set address to broadcaster server
-    this.serverAddress = "ws://chatserver6908.azurewebsites.net/chatws";
-    //this.serverAddress = "ws://localhost:57575/chatws";
+    this.serverAddress = "ws://localhost:57575/chatws";
     
     this.nicknameTextId = "nicknameText";
     this.nicknameButtonId = "nicknameButton";

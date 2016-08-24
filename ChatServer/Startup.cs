@@ -11,8 +11,7 @@ namespace ChatServer
     /// </summary>
     public class Startup
     {
-        //string chatAddress = "http://localhost:57575/index.html";
-        string chatAddress = "http://chatserver6908.azurewebsites.net/index.html";
+        string chatAddress = "http://localhost:57575/index.html";
 
         public void Configuration(IAppBuilder app)
         {
