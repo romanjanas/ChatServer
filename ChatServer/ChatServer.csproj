@@ -122,6 +122,8 @@
     </Content>
     <Content Include="Service References\Application Insights\ConnectedService.json" />
     <None Include="Properties\PublishProfiles\ChatServer6908.pubxml" />
+    <Content Include="theme\usebootstrap.less" />
+    <Content Include="theme\variables.less" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -130,11 +132,17 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="chatRoom.html" />
-    <Content Include="scripts\ai.0.22.19-build00125.js" />
-    <Content Include="scripts\ai.0.22.19-build00125.min.js" />
-    <Content Include="scripts\ws-communication.js" />
-    <Content Include="styles\style.css" />
+    <Content Include="bootstrap\bootstrap.min.js" />
+    <Content Include="bootstrap\custom.css" />
+    <Content Include="bootstrap\html5shiv.js" />
+    <Content Include="bootstrap\respond.min.js" />
+    <Content Include="bootstrap\usebootstrap.js" />
+    <Content Include="image\incinity-logo.png" />
+    <Content Include="index.html" />
+    <Content Include="script\custom.js" />
+    <Content Include="theme\bootstrap.css" />
+    <Content Include="theme\bootstrap.min.css" />
+    <Content Include="theme\usebootstrap.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -145,6 +153,7 @@
   <ItemGroup>
     <WCFMetadata Include="Service References\" />
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
