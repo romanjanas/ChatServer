@@ -42,3 +42,9 @@ It is valid for latest OwinHost package, the version may differ.
 
 ## Example
 Chat is available at http://chatserver6908.azurewebsites.net/index.html
+
+## References
+* An Overview of Project Katana
+ * http://www.asp.net/aspnet/overview/owin-and-katana/an-overview-of-project-katana
+* OwinWebsockets GitHub page
+ * https://github.com/bryceg/Owin.WebSocket 
